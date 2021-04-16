@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(img/Share.jpg);
+    background-size: cover;
+}
+.box{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0, 0.8);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: greenyellow;
+    font-weight: 700;
+
+}
+label{
+    color: gold;
+    font-weight: 700;
+}
+::placeholder { 
+  color:darkgoldenrod;
+  opacity: 1; 
+}
+.box input[type="text"],.box input[type="password"]{
+    color: yellow;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: auto;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width: 350px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: greenyellow;
+
+}
+ .box input[type="submit"]{
+    border: 0;
+ background: none;
+ display: block;
+ margin: 20px auto;
+ text-align: center;
+ border: 3px solid greenyellow;
+ padding: 14px 10px;
+ width: 190px;
+ outline: none;
+ color: white;
+ border-radius: 24px;
+ transition: 0.25px;
+cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: greenyellow;
+}
+
+.btn{
+	border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 3px solid greenyellow;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+   cursor: pointer;
+}
+.btn:hover{
+    background: red;
+}
